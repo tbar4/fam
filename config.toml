@@ -53,7 +53,7 @@ smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` 
 ###############################################################################
 
 menu = [
-    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
+    #{url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
     {url = "about", name = "About", slash = true, blank = false, size="s110"},
     {url = "archive", name = "Posts", slash = true, blank = false, size="s110"},
     {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
@@ -61,8 +61,8 @@ menu = [
 ]
 menu_footer = [
     {url = "about", name = "About", slash = true, blank = false, size="s90"},
-    {url = "contact", name = "Contact", slash = true, blank = false, size="s90"},
-    {url = "privacy", name = "Privacy", slash = true, blank = false, size="s90"},
+    #{url = "contact", name = "Contact", slash = true, blank = false, size="s90"},
+    #{url = "privacy", name = "Privacy", slash = true, blank = false, size="s90"},
     {url = "sitemap.xml", name = "Sitemap", slash = false, blank = true, size="s90"},
 ]
 
